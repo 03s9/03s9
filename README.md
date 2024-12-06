@@ -5,11 +5,13 @@ Meu nome é Vitor, e atualmetne estou trabalhando como supervisor e pretendo pos
 
 ## Minhas habilidades
 
+<img src="https://github.com/user-attachments/assets/5bd4721d-6e27-4eea-8904-05b8f7e1696e" alt="ascii" style="width: 19%; float: right;">
+
 ### Back/Front End
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Golang](https://img.shields.io/badge/-Golang-00ADD8?style=flat-square&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)   
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
@@ -42,4 +44,3 @@ Meu nome é Vitor, e atualmetne estou trabalhando como supervisor e pretendo pos
 
 ---
 
-⭐️ De [seu-usuario](https://github.com/seu-usuario)
