@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sua loja online com os melhores produtos e ofertas exclusivas">
+    <title>ShopZone - Sua Loja Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>ShopZone</span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#categorias">Categorias</a></li>
+                        <li><a href="#ofertas">Ofertas</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                    <div class="nav-icons">
+                        <button class="icon-btn search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="icon-btn cart-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge">0</span>
+                        </button>
+                        <button class="icon-btn user-btn">
+                            <i class="fas fa-user"></i>
+                        </button>
+                    </div>
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">Novidade da Temporada</span>
+                <h1 class="hero-title">
+                    Descubra as Melhores<br>
+                    <span class="gradient-text">Ofertas do Ano</span>
+                </h1>
+                <p class="hero-description">
+                    Produtos exclusivos com até 70% de desconto. Aproveite nossas promoções imperdíveis!
+                </p>
+                <div class="hero-buttons">
+                    <a href="#produtos" class="btn btn-primary">
+                        Comprar Agora
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#ofertas" class="btn btn-secondary">
+                        Ver Ofertas
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>50k+</h3>
+                        <p>Clientes Felizes</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5k+</h3>
+                        <p>Produtos</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>4.8★</h3>
+                        <p>Avaliação</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-truck"></i>
+                    <p>Frete Grátis</p>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>Compra Segura</p>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-tags"></i>
+                    <p>Até 70% OFF</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Categorias Populares</h2>
+                <p>Explore nossas coleções exclusivas</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Eletrônicos</h3>
+                    <p>500+ produtos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Moda</h3>
+                    <p>1200+ produtos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Casa & Decoração</h3>
+                    <p>800+ produtos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Esportes</h3>
+                    <p>600+ produtos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Livros</h3>
+                    <p>900+ produtos</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Games</h3>
+                    <p>400+ produtos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Produtos em Destaque</h2>
+                <p>Selecionados especialmente para você</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">-35%</div>
+                    <div class="product-image">
+                        <div class="placeholder-img">
+                            <i class="fas fa-headphones"></i>
+                        </div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Fone Bluetooth Premium</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(245)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 299,90</span>
+                            <span class="current-price">R$ 194,90</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">-50%</div>
+                    <div class="product-image">
+                        <div class="placeholder-img">
+                            <i class="fas fa-watch"></i>
+                        </div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smartwatch Fitness Pro</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(512)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 599,90</span>
+                            <span class="current-price">R$ 299,90</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">-25%</div>
+                    <div class="product-image">
+                        <div class="placeholder-img">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Câmera Digital 4K</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(189)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 1.999,90</span>
+                            <span class="current-price">R$ 1.499,90</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">-40%</div>
+                    <div class="product-image">
+                        <div class="placeholder-img">
+                            <i class="fas fa-tablet-alt"></i>
+                        </div>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tablet 10" Ultra HD</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(324)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">R$ 1.299,90</span>
+                            <span class="current-price">R$ 779,90</span>
+                        </div>
+                        <button class="btn-add-cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ofertas Especiais -->
+    <section id="ofertas" class="special-offer">
+        <div class="container">
+            <div class="offer-content">
+                <span class="offer-badge">Oferta Relâmpago</span>
+                <h2>Mega Promoção</h2>
+                <p>Descontos de até 70% em produtos selecionados</p>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="days">00</span>
+                        <span class="countdown-label">Dias</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="hours">00</span>
+                        <span class="countdown-label">Horas</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="minutes">00</span>
+                        <span class="countdown-label">Min</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-value" id="seconds">00</span>
+                        <span class="countdown-label">Seg</span>
+                    </div>
+                </div>
+                <a href="#produtos" class="btn btn-primary">
+                    Aproveitar Agora
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Receba Nossas Ofertas</h2>
+                    <p>Cadastre-se e receba novidades e promoções exclusivas</p>
+                </div>
+                <form class="newsletter-form">
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Digite seu e-mail" required>
+                        <button type="submit" class="btn btn-primary">Inscrever-se</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>ShopZone</span>
+                    </div>
+                    <p>Sua loja online de confiança com os melhores produtos e ofertas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="#">Sustentabilidade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Rastreamento</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (11) 9999-9999</li>
+                        <li><i class="fas fa-envelope"></i> contato@shopzone.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ShopZone. Todos os direitos reservados.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fas fa-barcode"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
