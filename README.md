@@ -4,7 +4,7 @@
 
 **Network Specialist · IT Student · Always Learning**
 
-📍 Campinas, São Paulo, Brazil &nbsp;|&nbsp; 📧 vitorgongora@pm.me &nbsp;|&nbsp; 📱 +55 19 993668970
+📍 Campinas, São Paulo, Brazil &nbsp;|&nbsp; 📧 vitorgongora@pm.me &nbsp;|&nbsp; 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vitorgongora@pm.me)
@@ -43,17 +43,15 @@ Dynamic Network Specialist with hands-on experience in network configuration and
 
 ---
 
-## 💼 Experience
+## 💼 Remarkable Experience
 
 ### 🔧 Network Specialist — *Rede Decisão* `Feb 2023 – Oct 2025`
 - Configuration and maintenance of **MikroTik** routers (routing, firewall, performance optimization)
 - Management of **HP Aruba** switches — VLANs, port security, traffic monitoring
 - Implementation of **Zabbix** for proactive monitoring, custom alerts and dashboards
 - IT asset management and helpdesk automation using **GLPI**
-
-### 🗂️ Administrative Assistant — *Global Hitss* `Feb 2022 – Oct 2022`
-- Supported management in daily operations and decision-making
-- Managed spreadsheets and back-office workflows
+- Team leadership and management experience
+- Proven ability to coordinate and support technical teams
 
 ### 🪖 Soldier — *Exército Brasileiro* `Jan 2021 – Jan 2022`
 - Administrative duties, document handling and data organization
@@ -65,9 +63,8 @@ Dynamic Network Specialist with hands-on experience in network configuration and
 
 | Degree | Institution | Period |
 |--------|-------------|--------|
-| 🎓 Bachelor's in IT Management | Unisal, São Paulo | 2024 – 2026 *(ongoing)* |
-| 🎓 Technologist in IT Management | Senac, São Paulo | 2023 – 2026 *(ongoing)* |
-| ✅ Technologist in Systems Analysis & Development | SENAC | 2022 – 2025 *(graduated)* |
+| 🎓 Bachelor's in Computing Engineering | Unisal, São Paulo | 2024 – 2026 *(ongoing)* |
+| ✅ Technologist in IT Management | SENAC | 2023 – 2025 *(graduated)* |
 
 ---
 
@@ -77,11 +74,14 @@ Dynamic Network Specialist with hands-on experience in network configuration and
 |----------|-------|
 | 🇧🇷 Portuguese | Native |
 | 🇺🇸 English | C2 — Proficient |
+| 🇪🇸 Spanish | Basic |
+
 
 ---
 
 ## 📊 Key Skills
 
+### ⚙️ Technical
 ```
 ✔ Network infrastructure (Cisco, MikroTik, HP Aruba)
 ✔ Zabbix monitoring (Hosts, Dashboards, Alerts)
@@ -91,6 +91,27 @@ Dynamic Network Specialist with hands-on experience in network configuration and
 ✔ Agile methodologies (Scrum, Kanban)
 ✔ Version control (Git)
 ✔ SDLC & Systems Analysis
+```
+
+### 🗂️ Management & Administration
+```
+✔ IT team leadership and coordination
+✔ IT asset and resource management
+✔ Workflow and operational process improvement
+✔ Project planning and follow-up
+✔ Documentation and reporting
+```
+
+### 🤝 Soft Skills
+```
+✔ Clear and effective communication with teams and stakeholders
+✔ Public speaking and technical presentations
+✔ Adaptability and fast learning in dynamic environments
+✔ Critical thinking and structured problem-solving
+✔ Empathy and active listening
+✔ Collaborative mindset and cross-functional teamwork
+✔ Time management 
+✔ Proactive attitude
 ```
 
 ---
