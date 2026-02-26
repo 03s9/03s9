@@ -1,46 +1,108 @@
-# 03s9 
+<div align="center">
 
-## Sobre mim
-Meu nome é Vitor, e atualmetne estou trabalhando como supervisor e pretendo postar repositórios, para preenchimento de portifólio. Estou querendo aprimorar minhas habilidades e programação, e sair um pouco do nicho de gestão
+# Hi there, I'm Vitor Góngora 👋
 
-## Minhas habilidades
+**Network Specialist · IT Student · Always Learning**
 
-<img src="https://github.com/user-attachments/assets/5bd4721d-6e27-4eea-8904-05b8f7e1696e" alt="ascii" style="width: 19%; float: right;">
+📍 Campinas, São Paulo, Brazil &nbsp;|&nbsp; 📧 vitorgongora@pm.me &nbsp;|&nbsp; 📱 +55 19 993668970
 
-### Back/Front End
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Golang](https://img.shields.io/badge/-Golang-00ADD8?style=flat-square&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)   
-![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vitorgongora@pm.me)
 
-### Ferramentas e Tecnologias
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-### Bancos de Dados
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![NoSQL](https://img.shields.io/badge/-NoSQL-4DB33D?style=flat-square&logo=mongodb&logoColor=white)
-
-## Projetos em Destaque
-- [Nome do Projeto 1](link): Breve descrição.
-- [Nome do Projeto 2](link): Breve descrição.
-- [Nome do Projeto 3](link): Breve descrição.
-
-## Estatísticas do GitHub
-![Suas estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=radical)
-
-## Linguagens Mais Usadas
-![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?03s9&layout=compact&theme=radical)
-
-## Redes Sociais
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](seu-linkedin)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](seu-twitter)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](seu-instagram)
-[![Discord](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](seu-discord)
-[![Email](https://img.shields.io/badge/-ProtonMail-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:seu-email@protonmail.com)
+</div>
 
 ---
 
+## 👨‍💻 About Me
+
+Dynamic Network Specialist with hands-on experience in network configuration and performance optimization. Passionate about IT infrastructure, programming, and continuous improvement. Currently pursuing a degree in Information Technology Management while expanding my skills in software development and systems analysis.
+
+> *"Always learning and improving."*
+
+---
+
+## 🛠️ Tech Stack
+
+### 🌐 Networking
+![MikroTik](https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+![HP Aruba](https://img.shields.io/badge/HP_Aruba-0096D6?style=flat-square&logo=hp&logoColor=white)
+
+### 💻 Programming
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+### 🗄️ Database & Tools
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-CC0000?style=flat-square&logo=zabbix&logoColor=white)
+![GLPI](https://img.shields.io/badge/GLPI-009CDE?style=flat-square&logo=glpi&logoColor=white)
+
+---
+
+## 💼 Experience
+
+### 🔧 Network Specialist — *Rede Decisão* `Feb 2023 – Oct 2025`
+- Configuration and maintenance of **MikroTik** routers (routing, firewall, performance optimization)
+- Management of **HP Aruba** switches — VLANs, port security, traffic monitoring
+- Implementation of **Zabbix** for proactive monitoring, custom alerts and dashboards
+- IT asset management and helpdesk automation using **GLPI**
+
+### 🗂️ Administrative Assistant — *Global Hitss* `Feb 2022 – Oct 2022`
+- Supported management in daily operations and decision-making
+- Managed spreadsheets and back-office workflows
+
+### 🪖 Soldier — *Exército Brasileiro* `Jan 2021 – Jan 2022`
+- Administrative duties, document handling and data organization
+- Basic network support and hardware troubleshooting
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Period |
+|--------|-------------|--------|
+| 🎓 Bachelor's in IT Management | Unisal, São Paulo | 2024 – 2026 *(ongoing)* |
+| 🎓 Technologist in IT Management | Senac, São Paulo | 2023 – 2026 *(ongoing)* |
+| ✅ Technologist in Systems Analysis & Development | SENAC | 2022 – 2025 *(graduated)* |
+
+---
+
+## 🌍 Languages
+
+| Language | Level |
+|----------|-------|
+| 🇧🇷 Portuguese | Native |
+| 🇺🇸 English | C2 — Proficient |
+
+---
+
+## 📊 Key Skills
+
+```
+✔ Network infrastructure (Cisco, MikroTik, HP Aruba)
+✔ Zabbix monitoring (Hosts, Dashboards, Alerts)
+✔ GLPI — IT Asset & Helpdesk management
+✔ Programming: Python, Java, C#, C++, JavaScript
+✔ Database: SQL & NoSQL
+✔ Agile methodologies (Scrum, Kanban)
+✔ Version control (Git)
+✔ SDLC & Systems Analysis
+```
+
+---
+
+## 🎯 What I'm Looking For
+
+I'm seeking an **entry-level opportunity in IT and programming** where I can apply my technical background in networking and development. I'm also comfortable contributing to team coordination and management processes.
+
+---
+
+<div align="center">
+
+*Thanks for visiting my profile! Feel free to reach out.* 🤝
+
+</div>
