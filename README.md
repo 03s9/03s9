@@ -53,15 +53,7 @@ reads   →  trying to read more
 
 ### ♪ ♫ ♩ now playing ♩ ♫ ♪
 
-<!-- ════════════════════════════════════════════════════
-
-  ════════════════════════════════════════════════════ -->
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=SEU_SPOTIFY_UID_AQUI&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d0d1a&interchange=false&bar_color=c9a0ff&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=SEU_SPOTIFY_UID_AQUI&redirect=true)
-
-<!-- ════════════════════════════════════════════════════
-
-  ════════════════════════════════════════════════════ -->
-<!-- <img src="https://lastfm-recently-played.vercel.app/api?user=SEU_USERNAME_LASTFM&loved=true&count=3" /> -->
+[![lastfm](https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5)](https://www.last.fm/user/ayame2400)
 
 </div>
 
@@ -138,16 +130,10 @@ Joe Hisaishi
 
 <br/>
 
-![Nana](https://img.shields.io/badge/NANA-c9a0ff?style=for-the-badge&labelColor=2d1b4e&color=4a2070)
-![Berserk](https://img.shields.io/badge/BERSERK-c9a0ff?style=for-the-badge&labelColor=2d1b4e&color=2d1440)
-![Evangelion](https://img.shields.io/badge/NEON_GENESIS_EVANGELION-c9a0ff?style=for-the-badge&labelColor=2d1b4e&color=1a0d33)
-![Perfect Blue](https://img.shields.io/badge/PERFECT_BLUE-c9a0ff?style=for-the-badge&labelColor=2d1b4e&color=3d1a5e)
-![Toradora](https://img.shields.io/badge/TORADORA-ffb3c6?style=for-the-badge&labelColor=4e1b2e&color=5e2040)
-![CCS](https://img.shields.io/badge/CARD_CAPTOR_SAKURA-ffb3de?style=for-the-badge&labelColor=4e1b3a&color=5e1a4a)
-![InuYasha](https://img.shields.io/badge/INUYASHA-c9a0ff?style=for-the-badge&labelColor=2d1b4e&color=251035)
-![Totoro](https://img.shields.io/badge/MY_NEIGHBOR_TOTORO-a8d8a8?style=for-the-badge&labelColor=1b3e1b&color=2d5e2d)
-![Spirited Away](https://img.shields.io/badge/SPIRITED_AWAY-c9a0ff?style=for-the-badge&labelColor=2d1b4e&color=1a0a2e)
-![Madoka](https://img.shields.io/badge/PUELLA_MAGI_MADOKA_MAGICA-ffb3c6?style=for-the-badge&labelColor=4e0d2e&color=6e1040)
+<img src="https://files.catbox.moe/8490u6.gif" height="56" alt="Evangelion" title="Neon Genesis Evangelion" />
+<img src="https://files.catbox.moe/uexxmd.gif" height="56" alt="Madoka Magica" title="Puella Magi Madoka Magica" />
+<img src="https://files.catbox.moe/qzglzg.jpg" height="56" alt="Totoro" title="My Neighbor Totoro" />
+<img src="https://files.catbox.moe/bsvmeh.png" height="56" alt="Spirited Away" title="Spirited Away" />
 
 </div>
 
@@ -165,16 +151,6 @@ Joe Hisaishi
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-9b7fca?style=flat-square&logo=postgresql&logoColor=white&labelColor=2d1b4e)
 ![Tailwind](https://img.shields.io/badge/Tailwind-c9a0ff?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=2d1b4e)
 ![Git](https://img.shields.io/badge/Git-b39ddb?style=flat-square&logo=git&logoColor=white&labelColor=2d1b4e)
-
-</div>
-
----
-
-<div align="center">
-
-### ✦ links ✦
-
-<br/>
 
 <br/>
 
