@@ -51,7 +51,7 @@ reads   →  trying to read more
 
 <div align="center">
 
-### ♪ ♫ ♩ now playing ♩ ♫ ♪
+
 
 [![lastfm](https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5)](https://www.last.fm/user/ayame2400)
 
@@ -61,7 +61,7 @@ reads   →  trying to read more
 
 <div align="center">
 
-### ✦ music i love ✦
+
 
 </div>
 
@@ -126,7 +126,7 @@ Joe Hisaishi
 
 <div align="center">
 
-### ✦ shows & anime i love ✦
+
 
 <br/>
 
