@@ -54,17 +54,12 @@ reads   →  trying to read more
 ### ♪ ♫ ♩ now playing ♩ ♫ ♪
 
 <!-- ════════════════════════════════════════════════════
-  OPÇÃO 1 – SPOTIFY  (mais fácil se você ainda usa Spotify)
-  Siga: https://github.com/kittinanx/spotify-github-profile
-  Depois troque a linha abaixo pela sua URL gerada lá.
+
   ════════════════════════════════════════════════════ -->
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=SEU_SPOTIFY_UID_AQUI&cover_image=true&theme=natemoo-re&show_offline=false&background_color=0d0d1a&interchange=false&bar_color=c9a0ff&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=SEU_SPOTIFY_UID_AQUI&redirect=true)
 
 <!-- ════════════════════════════════════════════════════
-  OPÇÃO 2 – LAST.FM  (funciona com Apple Music + qualquer player)
-  1. Crie conta em last.fm
-  2. Instale o scrobbler: https://www.last.fm/about/trackmymusic
-  3. Troque USERNAME pelo seu username do last.fm
+
   ════════════════════════════════════════════════════ -->
 <!-- <img src="https://lastfm-recently-played.vercel.app/api?user=SEU_USERNAME_LASTFM&loved=true&count=3" /> -->
 
@@ -180,9 +175,6 @@ Joe Hisaishi
 ### ✦ links ✦
 
 <br/>
-
-[![Instagram](https://img.shields.io/badge/@iluvmadokamagica-E1306C?style=flat-square&logo=instagram&logoColor=white&labelColor=2d1b4e)](https://instagram.com/iluvmadokamagica)
-[![Pinterest](https://img.shields.io/badge/@03s9-E60023?style=flat-square&logo=pinterest&logoColor=white&labelColor=2d1b4e)](https://pinterest.com/03s9)
 
 <br/>
 
