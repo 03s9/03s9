@@ -1,150 +1,68 @@
 <div align="center">
 
-```
-  ┌──────────────────────────────────────────────┐
-  │  > CONNECTING TO THE WIRED...                 │
-  │  > LAYER: 03                                  │
-  │  > USER: vitor_góngora                        │
-  │  > STATUS: ONLINE                             │
-  └──────────────────────────────────────────────┘
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0b2e,50:6a3093,100:c77dff&height=220&section=header&text=03s9&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Developer%20%7C%20Building%20things%20in%20the%20dark&descAlignY=55&descSize=18" width="100%"/>
 
-# `V I T O R   G Ó N G O R A`
-### *"No matter where you go, everyone is connected."*
+<br/>
 
-`Junior Software Developer` ‹ — › `Network Engineer` ‹ — › `Always Building`
-
-📍 Campinas, São Paulo, Brasil &nbsp;|&nbsp; 📧 vitorgongora@pm.me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=8a8a8a)](https://linkedin.com/in/seu-perfil)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=protonmail&logoColor=8a8a8a)](mailto:vitorgongora@pm.me)
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:1a1a1a&height=2&width=900)
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=800&color=C77DFF&center=true&vCenter=true&width=600&lines=Software+Developer;Clean+code%2C+dark+themes;Always+learning+something+new" />
 
 </div>
 
-<br>
-
-## `// 0x01 — TRANSMISSION`
-
-```
-present day... present time...
-
-network engineer há 3+ anos, agora atravessando a fronteira pro lado do
-software. construí uma REST API completa em Java 17 do zero — sem
-frameworks, sem atalhos — porque entender a máquina por dentro é a
-única forma de confiar nela.
-
-a infraestrutura me ensinou a pensar em camadas.
-o código me ensinou a construir o que passa por elas.
-```
-
-<br>
-
-## `// 0x02 — FEATURED PROJECT`
+<br/>
 
 <div align="center">
 
-### [ Java HTTP Server + React Frontend ](https://github.com/seu-usuario/java-http-server)
-*"Production-grade REST API construída do zero em Java 17 — sem Spring, sem frameworks."*
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/SEU_USUARIO)
+[![Twitter](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/SEU_USUARIO)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/SEU_ID)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU_USUARIO)
+[![Website](https://img.shields.io/badge/Website-%236a3093.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://seusite.com)
 
 </div>
 
-```diff
-+ HTTP server com TCP sockets + ExecutorService thread pool
-+ CRUD completo: path params, query params, paginação
-+ JWT auth (access 1h / refresh 7d, SHA-256 em PostgreSQL)
-+ BCrypt (12 rounds) + RBAC (admin/user)
-+ Rate limiting em memória — 5 tentativas/min, sliding window
-+ Frontend React 18 com Axios interceptors e refresh automático
-```
+<br/>
+
+## ✦ Sobre mim
+
+<img align="right" width="180" src="https://media.giphy.com/media/qLfTcyu0XRkLC/giphy.gif"/>
+
+- 🔮 Trabalho com desenvolvimento de software e gosto de projetos com boa arquitetura
+- 🌙 Sempre estudando algo novo (atualize esta linha com sua stack/foco atual)
+- ✉️ Contato: seu@email.com
+- 📍 Baseado em: sua cidade
+
+<br clear="right"/>
+
+## ✦ Stack
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java_17-0d0d0d?style=flat-square&logo=openjdk&logoColor=c9c9c9)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0d?style=flat-square&logo=postgresql&logoColor=c9c9c9)
-![React](https://img.shields.io/badge/React-0d0d0d?style=flat-square&logo=react&logoColor=c9c9c9)
-![Tailwind](https://img.shields.io/badge/Tailwind-0d0d0d?style=flat-square&logo=tailwindcss&logoColor=c9c9c9)
-![JWT](https://img.shields.io/badge/JWT-0d0d0d?style=flat-square&logo=jsonwebtokens&logoColor=c9c9c9)
-![Maven](https://img.shields.io/badge/Maven-0d0d0d?style=flat-square&logo=apachemaven&logoColor=c9c9c9)
+![Python](https://img.shields.io/badge/Python-1a0b2e?style=for-the-badge&logo=python&logoColor=C77DFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-1a0b2e?style=for-the-badge&logo=javascript&logoColor=C77DFF)
+![TypeScript](https://img.shields.io/badge/TypeScript-1a0b2e?style=for-the-badge&logo=typescript&logoColor=C77DFF)
+![React](https://img.shields.io/badge/React-1a0b2e?style=for-the-badge&logo=react&logoColor=C77DFF)
+![Node.js](https://img.shields.io/badge/Node.js-1a0b2e?style=for-the-badge&logo=node.js&logoColor=C77DFF)
+![Git](https://img.shields.io/badge/Git-1a0b2e?style=for-the-badge&logo=git&logoColor=C77DFF)
+
+*(troque pelos badges das tecnologias que você realmente usa — basta mudar o nome do logo)*
 
 </div>
 
-<br>
-
-## `// 0x03 — STACK`
+## ✦ Estatísticas
 
 <div align="center">
 
-**Backend & Development**
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&hide_border=true&bg_color=1a0b2e&title_color=c77dff&icon_color=c77dff&text_color=e0c3fc&ring_color=6a3093"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&hide_border=true&bg_color=1a0b2e&title_color=c77dff&text_color=e0c3fc"/>
 
-![Java](https://img.shields.io/badge/Java-0d0d0d?style=for-the-badge&logo=openjdk&logoColor=c9c9c9)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0d?style=for-the-badge&logo=javascript&logoColor=c9c9c9)
-![Python](https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python&logoColor=c9c9c9)
-![React](https://img.shields.io/badge/React-0d0d0d?style=for-the-badge&logo=react&logoColor=c9c9c9)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql&logoColor=c9c9c9)
-![Git](https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=c9c9c9)
+<br/>
 
-**Networking & Infrastructure**
-
-![MikroTik](https://img.shields.io/badge/MikroTik-0d0d0d?style=for-the-badge&logo=mikrotik&logoColor=c9c9c9)
-![HP Aruba](https://img.shields.io/badge/HP_Aruba-0d0d0d?style=for-the-badge&logo=hp&logoColor=c9c9c9)
-![Zabbix](https://img.shields.io/badge/Zabbix-0d0d0d?style=for-the-badge&logo=zabbix&logoColor=c9c9c9)
-![GLPI](https://img.shields.io/badge/GLPI-0d0d0d?style=for-the-badge&logo=glpi&logoColor=c9c9c9)
-
-**Cloud & Certifications**
-
-![Azure](https://img.shields.io/badge/Azure-0d0d0d?style=for-the-badge&logo=microsoftazure&logoColor=c9c9c9)
-![AWS](https://img.shields.io/badge/AWS_Practitioner-0d0d0d?style=for-the-badge&logo=amazonaws&logoColor=c9c9c9)
-![ServiceNow](https://img.shields.io/badge/ServiceNow-0d0d0d?style=for-the-badge&logo=servicenow&logoColor=c9c9c9)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=03s9&hide_border=true&background=1a0b2e&ring=c77dff&fire=c77dff&currStreakLabel=e0c3fc&sideLabels=e0c3fc&dates=6a3093"/>
 
 </div>
 
-<br>
+<br/>
 
-## `// 0x04 — EXPERIENCE LOG`
-
-```
-[ FEB 2023 — FEB 2026 ]  Network Specialist · Rede Decisão
-  > MikroTik + HP Aruba em 5 campi
-  > Zabbix monitoring + GLPI asset management
-  > automação via Python / AutoHotkey
-
-[ FEB 2022 — OCT 2022 ]  Administrative Assistant · Claro Brasil / Global Hitts
-  > Power BI data prep · spreadsheet ops
-  > script AutoHotkey adotado pelo time inteiro
-
-[ JAN 2021 — JAN 2022 ]  Soldier · Exército Brasileiro
-  > suporte de hardware e rede da unidade
-```
-
-<br>
-
-## `// 0x05 — EDUCATION`
-
-| Layer | Institution | Period |
-|---|---|---|
-| B.S. Information Technology Management | Unisal, São Paulo | 2024 — 2026 *(in progress)* |
-| Technologist, IT Management | SENAC, São Paulo | 2023 — 2026 *(in progress)* |
-
-<br>
-
-## `// 0x06 — LANGUAGES`
-
-🇧🇷 Portuguese — `native` &nbsp;·&nbsp; 🇺🇸 English — `C2 fluent`
-
-<br>
-
-<div align="center">
-
-![divider](https://capsule-render.vercel.app/api?type=rect&color=0:1a1a1a,100:0d0d0d&height=2&width=900)
-
-```
-> SIGNAL LOST...
-> open to junior developer & infrastructure roles.
-> reach out through the wired.
-```
-
-![Profile views](https://komarev.com/ghpvc/?username=03s9&color=0d0d0d&style=flat-square&label=connections+detected)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:c77dff,50:6a3093,100:1a0b2e&height=120&section=footer"/>
 
 </div>
