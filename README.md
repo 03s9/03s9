@@ -10,11 +10,17 @@
 ✦  ✦  ✦  ✦
 ```
 
-<img src="https://img.shields.io/badge/-data%20%26%20backend-b39ddb?style=flat-square&labelColor=2d1b4e" />
-<img src="https://img.shields.io/badge/-violin%20%26%20guitar-c9a0ff?style=flat-square&labelColor=2d1b4e" />
-<img src="https://img.shields.io/badge/-anime%20%26%20game%20osts-9b7fca?style=flat-square&labelColor=2d1b4e" />
 <a href="https://www.linkedin.com/in/vitor-g%C3%B3ngora-29243a386/" target="_blank">
   <img src="https://img.shields.io/badge/linkedin-vitor%20g%C3%B3ngora-c9a0ff?style=flat-square&logo=linkedin&logoColor=white&labelColor=2d1b4e" />
+</a>
+<a href="https://letterboxd.com/03s9/" target="_blank">
+  <img src="https://img.shields.io/badge/letterboxd-03s9-b39ddb?style=flat-square&logo=letterboxd&logoColor=white&labelColor=2d1b4e" />
+</a>
+<a href="https://anilist.co/user/03s9/" target="_blank">
+  <img src="https://img.shields.io/badge/anilist-03s9-9b7fca?style=flat-square&logo=anilist&logoColor=white&labelColor=2d1b4e" />
+</a>
+<a href="https://www.last.fm/user/ayame2400" target="_blank">
+  <img src="https://img.shields.io/badge/last.fm-ayame2400-c9a0ff?style=flat-square&logo=lastdotfm&logoColor=white&labelColor=2d1b4e" />
 </a>
 
 </div>
@@ -30,9 +36,9 @@
 </td>
 <td width="45%" valign="top" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&icon_color=b39ddb&text_color=d4b8f0&rank_icon=github&v=4" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&icon_color=b39ddb&text_color=d4b8f0&rank_icon=github&v=5" width="100%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&hide=javascript,html,css&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&text_color=d4b8f0&v=4" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&hide=javascript,html,css&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&text_color=d4b8f0&v=5" width="100%" />
 
 </td>
 </tr>
@@ -65,7 +71,7 @@
 
 <div align="center">
 
-### ✦ coding & listening ✦
+### ✦ coding, watching & listening ✦
 
 <table>
 <tr>
@@ -74,11 +80,15 @@
 </td>
 <td align="center" width="50%">
   <a href="https://www.last.fm/user/ayame2400" target="_blank">
-    <img src="https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5&v=4" width="100%" alt="Last.fm" />
+    <img src="https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5&v=5" width="100%" alt="Last.fm" />
   </a>
 </td>
 </tr>
 </table>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/03s9/03s9/main/media-stats.svg" width="100%" alt="Letterboxd & AniList" />
 
 </div>
 
