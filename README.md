@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Crimson+Text&size=28&pause=1000&color=C9A0FF&center=true&vCenter=true&width=500&lines=%E2%9C%A6+03s9+%E2%9C%A6;chilling+%E2%99%AA;br+%2F+23+%2F+violin+%26+guitar" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Crimson+Text&size=28&pause=1000&color=C9A0FF&center=true&vCenter=true&width=580&lines=%E2%9C%A6+Vitor+G%C3%B3ngora+(03s9)+%E2%9C%A6;Data+Analytics+%26+Software+Engineering;chilling+%E2%99%AA+%7C+violin+%26+guitar" alt="Typing SVG" />
 
 <br/>
 
@@ -8,9 +8,12 @@
 ✦  ✦  ✦  ✦
 ```
 
-<img src="https://img.shields.io/badge/-anime%20%26%20game%20osts-b39ddb?style=flat-square&labelColor=2d1b4e" />
+<img src="https://img.shields.io/badge/-data%20%26%20backend-b39ddb?style=flat-square&labelColor=2d1b4e" />
 <img src="https://img.shields.io/badge/-violin%20%26%20guitar-c9a0ff?style=flat-square&labelColor=2d1b4e" />
-<img src="https://img.shields.io/badge/-studying%20%26%20playing-9b7fca?style=flat-square&labelColor=2d1b4e" />
+<img src="https://img.shields.io/badge/-anime%20%26%20game%20osts-9b7fca?style=flat-square&labelColor=2d1b4e" />
+<a href="https://www.linkedin.com/in/vitor-g%C3%B3ngora-29243a386/" target="_blank">
+  <img src="https://img.shields.io/badge/linkedin-vitor%20g%C3%B3ngora-c9a0ff?style=flat-square&logo=linkedin&logoColor=white&labelColor=2d1b4e" />
+</a>
 
 </div>
 
@@ -23,18 +26,19 @@
 ### ˚ ₊‧ about me ‧₊ ˚
 
 ```
-name    →  03s9
-age     →  23
-origin  →  🇧🇷 brazil
+name    →  Vitor Góngora (03s9)
+age     →  23  /  🇧🇷 campinas, br
+role    →  Backoffice & Data Analytics @ CPFL Energia
+studies →  Data Science (UNICAMP) & B.S. SWE (UNISAL)
+focus   →  BI, ETL, Automation, Python & Java
 mood    →  chilling ♪
 plays   →  violin  &  guitar
 listens →  osts  /  hymns  /  anime
-reads   →  trying to read more
 ```
 
-> i like listening to music and hymns, along with
-> studying and playing something on my free time.
-> i often play violin and guitar too :)
+> working with data analytics, ETL & automation while pursuing
+> software engineering and data science. in my free time, i like
+> listening to music and hymns, studying, and playing violin & guitar :)
 
 </td>
 <td width="45%" valign="top">
@@ -51,19 +55,11 @@ reads   →  trying to read more
 
 <div align="center">
 
-
-
 [![lastfm](https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5)](https://www.last.fm/user/ayame2400)
 
 </div>
 
 ---
-
-<div align="center">
-
-
-
-</div>
 
 <table>
 <tr>
@@ -126,8 +122,6 @@ Joe Hisaishi
 
 <div align="center">
 
-
-
 <br/>
 
 <img src="https://files.catbox.moe/8490u6.gif" height="56" alt="Evangelion" title="Neon Genesis Evangelion" />
@@ -141,16 +135,18 @@ Joe Hisaishi
 
 <div align="center">
 
-### ✦ dev stuff ✦
+### ✦ dev & data stuff ✦
 
 <br/>
 
+![Python](https://img.shields.io/badge/Python-c9a0ff?style=flat-square&logo=python&logoColor=white&labelColor=2d1b4e)
+![Pandas](https://img.shields.io/badge/Pandas-b39ddb?style=flat-square&logo=pandas&logoColor=white&labelColor=2d1b4e)
+![Power BI](https://img.shields.io/badge/Power%20BI-9b7fca?style=flat-square&logo=powerbi&logoColor=white&labelColor=2d1b4e)
 ![Java](https://img.shields.io/badge/Java-c9a0ff?style=flat-square&logo=openjdk&logoColor=white&labelColor=2d1b4e)
-![JavaScript](https://img.shields.io/badge/JavaScript-c9a0ff?style=flat-square&logo=javascript&logoColor=white&labelColor=2d1b4e)
-![React](https://img.shields.io/badge/React-b39ddb?style=flat-square&logo=react&logoColor=white&labelColor=2d1b4e)
+![Spring](https://img.shields.io/badge/Spring-b39ddb?style=flat-square&logo=springboot&logoColor=white&labelColor=2d1b4e)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-9b7fca?style=flat-square&logo=postgresql&logoColor=white&labelColor=2d1b4e)
-![Tailwind](https://img.shields.io/badge/Tailwind-c9a0ff?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=2d1b4e)
-![Git](https://img.shields.io/badge/Git-b39ddb?style=flat-square&logo=git&logoColor=white&labelColor=2d1b4e)
+![Git](https://img.shields.io/badge/Git-c9a0ff?style=flat-square&logo=git&logoColor=white&labelColor=2d1b4e)
+![Jira](https://img.shields.io/badge/Jira-b39ddb?style=flat-square&logo=jira&logoColor=white&labelColor=2d1b4e)
 
 <br/>
 
