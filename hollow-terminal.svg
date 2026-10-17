@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 310" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#1a102c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c9a0ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#6a4c9c" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#c9a0ff" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .window { fill: url(#bg); stroke: url(#borderGrad); stroke-width: 1.5; rx: 12px; }
+    .header { fill: #160d26; }
+    .title { font-family: 'Courier New', monospace; font-size: 12px; fill: #9b7fca; font-weight: bold; }
+    .cmd { font-family: 'Courier New', monospace; font-size: 12.5px; fill: #c9a0ff; }
+    .key { font-family: 'Courier New', monospace; font-size: 12.5px; fill: #b39ddb; font-weight: bold; }
+    .val { font-family: 'Courier New', monospace; font-size: 12.5px; fill: #eaddff; }
+    .quote { font-family: Georgia, serif; font-style: italic; font-size: 12px; fill: #9b7fca; }
+
+    /* Animação do Knight respirando / flutuando */
+    .knight {
+      animation: float 3.5s ease-in-out infinite;
+      transform-origin: center;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+
+    /* Partículas de Soul / Lumafly subindo */
+    .spore1 { animation: rise 4s ease-in-out infinite; fill: #c9a0ff; opacity: 0.7; }
+    .spore2 { animation: rise 5.5s ease-in-out infinite 1.5s; fill: #eaddff; opacity: 0.5; }
+    .spore3 { animation: rise 3.8s ease-in-out infinite 0.7s; fill: #9b7fca; opacity: 0.8; }
+    @keyframes rise {
+      0% { transform: translateY(10px) scale(0.8); opacity: 0; }
+      50% { opacity: 0.85; }
+      100% { transform: translateY(-25px) scale(1.2); opacity: 0; }
+    }
+
+    /* Cursor piscando */
+    .cursor {
+      fill: #c9a0ff;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Janela Principal -->
+  <rect x="2" y="2" width="486" height="306" rx="12" class="window" />
+  <path d="M 2 14 Q 2 2 14 2 L 476 2 Q 488 2 488 14 L 488 34 L 2 34 Z" class="header" />
+  <line x1="2" y1="34" x2="488" y2="34" stroke="#2d1b4e" stroke-width="1" />
+
+  <!-- Botões macOS -->
+  <circle cx="20" cy="18" r="5.5" fill="#ff5f56" />
+  <circle cx="38" cy="18" r="5.5" fill="#ffbd2e" />
+  <circle cx="56" cy="18" r="5.5" fill="#27c93f" />
+  <text x="245" y="22" text-anchor="middle" class="title">vitor@03s9: ~ (hallownest-zsh)</text>
+
+  <!-- Partículas brilhantes (Hollow Knight vibes) -->
+  <circle cx="40" cy="180" r="2.2" class="spore1" filter="url(#glow)" />
+  <circle cx="115" cy="140" r="1.8" class="spore2" filter="url(#glow)" />
+  <circle cx="55" cy="95" r="2.5" class="spore3" filter="url(#glow)" />
+  <circle cx="105" cy="215" r="2" class="spore1" filter="url(#glow)" />
+
+  <!-- Boneco do Hollow Knight (The Knight) em SVG -->
+  <g class="knight" transform="translate(32, 72)">
+    <!-- Sombra no chão -->
+    <ellipse cx="45" cy="148" rx="28" ry="5" fill="#070510" opacity="0.8" />
+    <!-- Ferrão (Nail) nas costas -->
+    <polygon points="62,55 82,115 74,118 56,60" fill="#8b7ba8" />
+    <!-- Capa (Cloak) -->
+    <path d="M 25 72 Q 12 108 18 138 L 32 132 L 42 142 L 52 132 L 64 140 L 74 134 Q 76 105 65 72 Z" fill="#3a285c" stroke="#c9a0ff" stroke-width="1.2" />
+    <path d="M 32 74 Q 25 105 28 134 L 42 140 L 55 133 Q 58 105 56 74 Z" fill="#261840" />
+    <!-- Pernas -->
+    <rect x="35" y="132" width="5" height="14" rx="2.5" fill="#090612" />
+    <rect x="49" y="132" width="5" height="14" rx="2.5" fill="#090612" />
+    <!-- Cabeça + Chifres (Mask & Horns) -->
+    <path d="M 24 44 C 10 20, 14 2, 30 0 C 24 14, 28 28, 35 35 L 55 35 C 62 28, 66 14, 60 0 C 76 2, 80 20, 66 44 C 72 62, 66 78, 45 78 C 24 78, 18 62, 24 44 Z" fill="#f3ebff" stroke="#c9a0ff" stroke-width="1.5" filter="url(#glow)" />
+    <!-- Olhos vazios (The Void) -->
+    <ellipse cx="35" cy="58" rx="6.5" ry="9" fill="#0d0d1a" />
+    <ellipse cx="55" cy="58" rx="6.5" ry="9" fill="#0d0d1a" />
+  </g>
+
+  <!-- Dados do Terminal (Neofetch) -->
+  <text x="150" y="62" class="cmd">vitor@03s9 ~ $ <tspan fill="#eaddff">fastfetch --hollow</tspan></text>
+  <line x1="150" y1="72" x2="465" y2="72" stroke="#2d1b4e" stroke-width="1" />
+
+  <text x="150" y="95" class="key">name    <tspan fill="#6a4c9c">→</tspan> <tspan class="val">Vitor Góngora (03s9)</tspan></text>
+  <text x="150" y="117" class="key">age     <tspan fill="#6a4c9c">→</tspan> <tspan class="val">23 / 🇧🇷 Campinas, BR</tspan></text>
+  <text x="150" y="139" class="key">role    <tspan fill="#6a4c9c">→</tspan> <tspan class="val">Data Analytics @ CPFL Energia</tspan></text>
+  <text x="150" y="161" class="key">studies <tspan fill="#6a4c9c">→</tspan> <tspan class="val">Data Science @ UNICAMP</tspan></text>
+  <text x="150" y="183" class="key">degree  <tspan fill="#6a4c9c">→</tspan> <tspan class="val">Software Eng. @ UNISAL</tspan></text>
+  <text x="150" y="205" class="key">focus   <tspan fill="#6a4c9c">→</tspan> <tspan class="val">BI, ETL, Python, SQL &amp; Java</tspan></text>
+  <text x="150" y="227" class="key">plays   <tspan fill="#6a4c9c">→</tspan> <tspan class="val">Violin &amp; Guitar ♪</tspan></text>
+  <text x="150" y="249" class="key">listens <tspan fill="#6a4c9c">→</tspan> <tspan class="val">OSTs / Hymns / Anime</tspan></text>
+
+  <!-- Rodapé do Terminal com Cursor Piscando -->
+  <line x1="24" y1="268" x2="465" y2="268" stroke="#2d1b4e" stroke-width="1" />
+  <text x="24" y="290" class="quote">"Resting at a bench in Dirtmouth... listening to OSTs &amp; coding."</text>
+  <rect x="448" y="278" width="8" height="14" class="cursor" />
+</svg>
