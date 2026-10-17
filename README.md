@@ -43,9 +43,9 @@ listens →  osts  /  hymns  /  anime
 </td>
 <td width="45%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&icon_color=b39ddb&text_color=d4b8f0&rank_icon=github" />
+<img src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&icon_color=b39ddb&text_color=d4b8f0&rank_icon=github&v=2" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&text_color=d4b8f0" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&hide=javascript,html,css&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&text_color=d4b8f0&v=2" />
 
 </td>
 </tr>
@@ -55,7 +55,9 @@ listens →  osts  /  hymns  /  anime
 
 <div align="center">
 
-[![lastfm](https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5)](https://www.last.fm/user/ayame2400)
+<a href="https://www.last.fm/user/ayame2400" target="_blank">
+  <img src="https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5&v=2" alt="Last.fm Recently Played" />
+</a>
 
 </div>
 
