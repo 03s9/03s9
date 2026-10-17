@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- 1. Header de Ondas Animadas -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:c9a0ff&height=130&section=header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:c9a0ff&height=120&section=header" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Crimson+Text&size=28&pause=1000&color=C9A0FF&center=true&vCenter=true&width=580&lines=%E2%9C%A6+Vitor+G%C3%B3ngora+(03s9)+%E2%9C%A6;Data+Analytics+%26+Software+Engineering;chilling+%E2%99%AA+%7C+violin+%26+guitar" alt="Typing SVG" />
 
@@ -22,48 +21,25 @@
 
 ---
 
-<!-- 12. Janela de Terminal Estilo Neofetch / macOS + GitHub Stats -->
 <table>
 <tr>
-<td width="56%" valign="top">
+<td width="55%" valign="top">
 
-<pre>
-🔴 🟡 🟢  <b>vitor@03s9: ~ (zsh)</b>
-──────────────────────────────────────────────────
-<b>vitor@03s9</b> ~ $ fastfetch
-                 <b>03s9@github</b>
-   ✦  .  *       ───────────
-  .  /\  .       <b>name</b>    → Vitor Góngora
- *  /  \  ✦      <b>age</b>     → 23 / 🇧🇷 Campinas, BR
-   / /\ \        <b>role</b>    → Data Analytics @ CPFL Energia
-  / ____ \       <b>studies</b> → Data Science (UNICAMP)
- /_/    \_\      <b>degree</b>  → Software Eng. (UNISAL)
-   .  ✦  .       <b>focus</b>   → BI, ETL, Python & Java
-                 <b>plays</b>   → Violin 🎻 & Guitar 🎸
-                 <b>mood</b>    → Chilling ♪
-</pre>
-
-> working with data analytics, ETL & automation while pursuing
-> software engineering and data science. in my free time, i like
-> listening to music and hymns, studying, and playing violin & guitar :)
+<img src="https://raw.githubusercontent.com/03s9/03s9/main/hollow-terminal.svg" width="100%" alt="Hollow Knight Terminal" />
 
 </td>
-<td width="44%" valign="top" align="center">
+<td width="45%" valign="top" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&icon_color=b39ddb&text_color=d4b8f0&rank_icon=github&v=3" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=03s9&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&icon_color=b39ddb&text_color=d4b8f0&rank_icon=github&v=4" width="100%" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&hide=javascript,html,css&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&text_color=d4b8f0&v=3" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=03s9&layout=compact&hide=javascript,html,css&theme=midnight-purple&hide_border=true&bg_color=0d0d1a&title_color=c9a0ff&text_color=d4b8f0&v=4" width="100%" />
 
 </td>
 </tr>
 </table>
 
-<!-- 11. Divisória Pixel Art / Estética Dark -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
-</div>
+---
 
-<!-- 7. Skill Icons + Badges -->
 <div align="center">
 
 ### ✦ dev & data stuff ✦
@@ -87,7 +63,6 @@
 
 ---
 
-<!-- 5. LeetCode Stats + Last.fm -->
 <div align="center">
 
 ### ✦ coding & listening ✦
@@ -99,28 +74,11 @@
 </td>
 <td align="center" width="50%">
   <a href="https://www.last.fm/user/ayame2400" target="_blank">
-    <img src="https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5&v=3" width="100%" alt="Last.fm" />
+    <img src="https://lastfm-recently-played.vercel.app/api?user=ayame2400&loved=true&count=5&v=4" width="100%" alt="Last.fm" />
   </a>
 </td>
 </tr>
 </table>
-
-</div>
-
----
-
-<!-- 8 & 9. Gráfico 3D Isométrico + Pac-Man nos Commits -->
-<div align="center">
-
-### ✦ contributions 3D & arcade ✦
-
-<!-- 8. 3D Isometric Contributions (gerado via GitHub Action) -->
-<img src="https://raw.githubusercontent.com/03s9/03s9/main/profile-3d-contrib/profile-night-rainbow.svg" width="85%" alt="3D Contributions" />
-
-<br/>
-
-<!-- 9. Pac-Man Contribution Graph (gerado via GitHub Action) -->
-<img src="https://raw.githubusercontent.com/03s9/03s9/output/pacman-contribution-graph-dark.svg" width="85%" alt="Pac-Man Contributions" />
 
 </div>
 
@@ -185,11 +143,11 @@ Joe Hisaishi
 
 ---
 
-<!-- 11. Pixel Art / Anime & Ghibli Stamps -->
 <div align="center">
 
 <br/>
 
+<img src="https://media1.tenor.com/m/RzRwZYlbKV8AAAAC/hollow-knight.gif" height="56" alt="Hollow Knight" title="Hollow Knight" />
 <img src="https://files.catbox.moe/8490u6.gif" height="56" alt="Evangelion" title="Neon Genesis Evangelion" />
 <img src="https://files.catbox.moe/uexxmd.gif" height="56" alt="Madoka Magica" title="Puella Magi Madoka Magica" />
 <img src="https://files.catbox.moe/qzglzg.jpg" height="56" alt="Totoro" title="My Neighbor Totoro" />
@@ -203,7 +161,6 @@ Joe Hisaishi
 
 <img src="https://komarev.com/ghpvc/?username=03s9&color=c9a0ff&style=flat-square&label=visitors" />
 
-<!-- 1. Footer de Ondas Animadas -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c9a0ff,50:2d1b4e,100:1a0f2e&height=110&section=footer" />
 
 </div>
