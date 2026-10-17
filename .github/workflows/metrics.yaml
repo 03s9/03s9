@@ -1,0 +1,136 @@
+name: Update Letterboxd & AniList Card
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Atualiza sozinho a cada 6 horas
+  workflow_dispatch:      # Ou com 1 clique na aba Actions
+  push:
+    branches:
+      - main
+
+jobs:
+  update-media:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Letterboxd & AniList SVG
+        run: |
+          python3 - << 'EOF'
+          import urllib.request
+          import json
+          import xml.etree.ElementTree as ET
+          import html
+
+          # 1. Busca últimos 4 filmes do Letterboxd (03s9)
+          req = urllib.request.Request("https://letterboxd.com/03s9/rss/", headers={"User-Agent": "Mozilla/5.0"})
+          xml_data = urllib.request.urlopen(req).read()
+          root = ET.fromstring(xml_data)
+          movies = []
+          for item in root.findall("./channel/item")[:4]:
+              title_full = item.find("title").text or ""
+              link = item.find("link").text or ""
+              parts = title_full.rsplit(" - ", 1)
+              name_year = parts[0]
+              stars = parts[1] if len(parts) > 1 else ""
+              if len(name_year) > 28:
+                  name_year = name_year[:26] + "…"
+              movies.append((html.escape(name_year), html.escape(stars)))
+
+          # 2. Busca estatísticas e últimas 4 atividades do AniList (03s9)
+          query = """
+          {
+            User(name: "03s9") {
+              statistics {
+                anime { count episodesWatched }
+                manga { count chaptersRead }
+              }
+            }
+            Page(perPage: 4) {
+              activities(userId: 7673699, sort: ID_DESC) {
+                ... on ListActivity {
+                  status
+                  progress
+                  media { title { romaji } }
+                }
+              }
+            }
+          }
+          """
+          ani_req = urllib.request.Request(
+              "https://graphql.anilist.co",
+              data=json.dumps({"query": query}).encode("utf-8"),
+              headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"}
+          )
+          ani_data = json.loads(urllib.request.urlopen(ani_req).read().decode("utf-8"))["data"]
+          stats = ani_data["User"]["statistics"]
+          activities = []
+          for act in ani_data["Page"]["activities"]:
+              if not act or "media" not in act:
+                  continue
+              m_title = act["media"]["title"]["romaji"]
+              if len(m_title) > 25:
+                  m_title = m_title[:23] + "…"
+              status = act.get("status", "")
+              prog = f" ({act['progress']})" if act.get("progress") else ""
+              activities.append((html.escape(m_title), html.escape(f"{status}{prog}")))
+
+          # 3. Monta o SVG no tema Midnight Purple
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="100%" height="100%">
+            <defs>
+              <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0d0d1a"/>
+                <stop offset="100%" stop-color="#170f29"/>
+              </linearGradient>
+            </defs>
+            <style>
+              .card {{ fill: url(#bg); stroke: #2d1b4e; stroke-width: 1.5; rx: 10px; }}
+              .title {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 15px; fill: #c9a0ff; font-weight: bold; }}
+              .sub {{ font-family: 'Courier New', monospace; font-size: 11.5px; fill: #9b7fca; }}
+              .item {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #eaddff; }}
+              .stars {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #c9a0ff; }}
+              .status {{ font-family: 'Courier New', monospace; font-size: 11.5px; fill: #b39ddb; }}
+            </style>
+
+            <!-- Card Letterboxd (Esquerda) -->
+            <rect x="2" y="2" width="388" height="226" class="card" />
+            <text x="22" y="32" class="title">🎬 Letterboxd — Recent Watches</text>
+            <text x="22" y="50" class="sub">@03s9 • diary &amp; ratings</text>
+            <line x1="22" y1="60" x2="368" y2="60" stroke="#2d1b4e" stroke-width="1" />
+          '''
+
+          y = 88
+          for m_title, m_stars in movies:
+              svg += f'  <text x="22" y="{y}" class="item">✦ {m_title}</text>\n'
+              svg += f'  <text x="368" y="{y}" text-anchor="end" class="stars">{m_stars}</text>\n'
+              y += 34
+
+          svg += f'''
+            <!-- Card AniList (Direita) -->
+            <rect x="410" y="2" width="388" height="226" class="card" />
+            <text x="430" y="32" class="title">🌙 AniList — Anime &amp; Manga</text>
+            <text x="430" y="50" class="sub">{stats["anime"]["count"]} animes ({stats["anime"]["episodesWatched"]} eps) • {stats["manga"]["count"]} mangas ({stats["manga"]["chaptersRead"]} chs)</text>
+            <line x1="430" y1="60" x2="776" y2="60" stroke="#2d1b4e" stroke-width="1" />
+          '''
+
+          y = 88
+          for a_title, a_status in activities:
+              svg += f'  <text x="430" y="{y}" class="item">✦ {a_title}</text>\n'
+              svg += f'  <text x="776" y="{y}" text-anchor="end" class="status">{a_status}</text>\n'
+              y += 34
+
+          svg += '</svg>'
+
+          with open("media-stats.svg", "w", encoding="utf-8") as f:
+              f.write(svg)
+          EOF
+
+      - name: Commit & Push SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add media-stats.svg
+          git diff --staged --quiet || git commit -m "Update Letterboxd and AniList SVG"
+          git push
