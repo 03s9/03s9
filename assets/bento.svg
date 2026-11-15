@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" role="img" aria-label="Foco, stack e agora" aria-describedby="bento-desc">
+  <title>Foco, stack e agora</title>
+  <desc id="bento-desc">Três cards creme com borda e sombra azul sobre fundo rosa: FOCO, STACK e AGORA.</desc>
+  <style>
+    .bg{fill:#FC3B7F}
+    .card{fill:#FEF1CF;stroke:#0032A8;stroke-width:3}
+    .shadow{fill:#0032A8}
+    .accent{fill:#0032A8}
+    .title{fill:#0032A8;font-family:'Courier New',ui-monospace,monospace;font-weight:900;font-size:28px;letter-spacing:2px}
+    .sub{fill:#0032A8;font-family:'Courier New',ui-monospace,monospace;font-weight:700;font-size:15px}
+  </style>
+  <rect class="bg" width="1000" height="350" rx="12"/>
+
+  <!-- FOCO -->
+  <rect class="shadow" x="28" y="28" width="470" height="182" rx="8"/>
+  <rect class="card" x="20" y="20" width="470" height="182" rx="8"/>
+  <text class="title" x="44" y="64">FOCO</text>
+  <rect class="accent" x="44" y="76" width="48" height="4"/>
+  <text class="sub" x="44" y="112">&gt; Pipelines de dados e extração de documentos</text>
+  <text class="sub" x="44" y="140">&gt; Motores nativos em Rust</text>
+  <text class="sub" x="44" y="168">&gt; Agentes de IA e LLMs locais</text>
+
+  <!-- STACK -->
+  <rect class="shadow" x="518" y="28" width="470" height="182" rx="8"/>
+  <rect class="card" x="510" y="20" width="470" height="182" rx="8"/>
+  <text class="title" x="534" y="64">STACK</text>
+  <rect class="accent" x="534" y="76" width="48" height="4"/>
+  <text class="sub" x="534" y="112">&gt; Python · SQL · Polars · DuckDB</text>
+  <text class="sub" x="534" y="140">&gt; Rust · Java · TypeScript</text>
+  <text class="sub" x="534" y="168">&gt; FastAPI · Pydantic · Docker</text>
+
+  <!-- AGORA (largo) -->
+  <rect class="shadow" x="28" y="234" width="960" height="100" rx="8"/>
+  <rect class="card" x="20" y="226" width="960" height="100" rx="8"/>
+  <text class="title" x="44" y="262">AGORA</text>
+  <text class="sub" x="44" y="290">Explorando motores de dados nativos e mineração de papers do arXiv.</text>
+  <text class="sub" x="44" y="314">Aberto a conversar sobre dados, backend e automação com IA.</text>
+</svg>

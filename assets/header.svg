@@ -1,0 +1,20 @@
+<svg width="1000" height="400" viewBox="0 0 1000 400" fill="none" role="img" aria-label="03S9 — Vitor Góngora: data engineering, backend e AI tooling" xmlns="http://www.w3.org/2000/svg">
+  <title>03S9 — Vitor Góngora</title>
+  <desc>Banner Y2K com fundo rosa, tipografia creme monumental, ponto focal azul cobalto e botão para explorar repositórios</desc>
+  <style>
+    .bg { fill: #FC3B7F; }
+    .title { font-family: 'Courier New', ui-monospace, monospace; font-weight: 900; font-size: 150px; fill: #FEF1CF; letter-spacing: 4px; }
+    .name { font-family: 'Courier New', ui-monospace, monospace; font-weight: 900; font-size: 44px; fill: #FEF1CF; }
+    .sub { font-family: 'Courier New', ui-monospace, monospace; font-weight: 800; font-size: 22px; fill: #FEF1CF; }
+    .accent { fill: #0032A8; }
+    .btn { fill: #FEF1CF; }
+    .btn-text { font-family: 'Courier New', ui-monospace, monospace; font-weight: 800; font-size: 13px; fill: #0032A8; letter-spacing: 1px; }
+  </style>
+  <rect width="1000" height="400" rx="12" class="bg"/>
+  <text x="50" y="180" class="title">03S9</text>
+  <circle cx="800" cy="200" r="120" class="accent"/>
+  <text x="60" y="255" class="name">VITOR GÓNGORA</text>
+  <text x="60" y="292" class="sub">DATA ENGINEERING · BACKEND · AI TOOLING</text>
+  <rect x="60" y="320" width="220" height="44" rx="4" class="btn"/>
+  <text x="80" y="347" class="btn-text">EXPLORAR REPOSITÓRIOS</text>
+</svg>
