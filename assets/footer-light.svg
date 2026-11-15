@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="90" viewBox="0 0 1000 90" role="img" aria-label="Rodapé">
-<defs><linearGradient id="w" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#15803D"/><stop offset="1" stop-color="#0369A1"/></linearGradient>
-<style>@media (prefers-reduced-motion:reduce){animate{display:none}}</style></defs>
-<path fill="url(#w)" opacity=".25"><animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 40 Q250 0 500 40 T1000 40 V90 H0Z;M0 40 Q250 80 500 40 T1000 40 V90 H0Z;M0 40 Q250 0 500 40 T1000 40 V90 H0Z"/></path>
-<path fill="url(#w)" opacity=".5"><animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 55 Q250 30 500 55 T1000 55 V90 H0Z;M0 55 Q250 80 500 55 T1000 55 V90 H0Z;M0 55 Q250 30 500 55 T1000 55 V90 H0Z"/></path>
-<path d="M0 70 Q250 60 500 70 T1000 70 V90 H0Z" fill="url(#w)"/>
-</svg>
