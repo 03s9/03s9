@@ -18,6 +18,7 @@ com ênfase no front-end. Serve de base para criar skills reutilizáveis (ver se
 | Cena "céu estrelado" com 11 badges flutuando | `assets/badges-sky.svg` | SVG + CSS animations, gerado por script |
 | Dashboard (linguagens, números, salvos) | `assets/generated/dashboard.svg` | SVG gerado por Python + GitHub Actions |
 | Seção pessoal (AniList + Last.fm) | `assets/generated/anilist.svg`, `music.svg` | SVG gerado por `scripts/gen_personal.py` (capas embutidas, capas flutuando, vinil girando) |
+| Bonsai pixel art do histórico | `assets/generated/bonsai*.{svg,png,gif}` | action de terceiros `egorthinks/git-bonsai` (fixada por SHA `665258c`), `commit: false` |
 | Cobra de contribuições | `assets/generated/snake.svg` | `Platane/snk` + GitHub Actions |
 | GIF ASCII | `assets/ascii-loop.gif` | GIF |
 | Rodapé xadrez | `assets/footer.svg` | SVG com `<pattern>` |
@@ -228,3 +229,8 @@ Cada skill deve incluir: gatilhos de uso, o exemplo mínimo funcional deste repo
 - Conteúdo de "foco / stack / agora" a partir do LinkedIn: leitura bloqueada (HTTP 999); textos atuais são suposições.
 - Remoção da branch `output` (sem uso) ainda pendente.
 - Seção pessoal: o Last.fm só foi testado com dados de mentira (sem chave local); a primeira prova real é o run do workflow.
+
+### Nota: action de terceiros (git-bonsai)
+Revisada em 2026-11-16 na versão `665258c` (v1.0.0): única rede é `api.github.com/graphql` com o token; `execSync` só roda `git`;
+sem `eval`/download. Fixada por SHA (não `@v1`). Roda com `commit: "false"` porque o `git push` dela só faz retry, sem `pull --rebase`;
+quem publica é o nosso passo de commit. Falha dela não bloqueia o resto (`continue-on-error`). Para atualizar a versão: reler o `dist/src/action.js` e trocar o SHA.
