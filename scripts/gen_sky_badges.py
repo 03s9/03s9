@@ -41,11 +41,24 @@ for b in badges:
 rows.append(cur)
 RH = 84; TOP = 56; H = TOP + len(rows) * RH + 36
 
-body, i = "", 0
+body, i, centers = "", 0, {}
 for r in rows:
     tw = sum(b["w"] for b in r) + GAP * (len(r) - 1); x = (W - tw) / 2
     for b in r:
+        centers[b["fn"]] = (round(x) + b["w"] / 2, TOP + rows.index(r) * RH + 35)
         body += badge(b, i, round(x), TOP + rows.index(r) * RH); x += b["w"] + GAP; i += 1
+
+
+# Constelação: quais ferramentas se conectam no meu dia a dia (linhas + pulsos)
+EDGES = [("python", "pandas"), ("python", "polars"), ("python", "fastapi"), ("python", "sql"), ("pandas", "polars"),
+         ("fastapi", "sql"), ("polars", "rust"), ("java", "spring-boot"), ("spring-boot", "sql"), ("typescript", "fastapi"),
+         ("claude-code", "python"), ("claude-code", "git-cicd"), ("git-cicd", "rust"), ("git-cicd", "spring-boot")]
+const = ""
+for n, (a, b) in enumerate(EDGES):
+    (ax, ay), (bx, by) = centers[a], centers[b]
+    const += f'<line x1="{ax:.0f}" y1="{ay:.0f}" x2="{bx:.0f}" y2="{by:.0f}" stroke="{CREAM}" stroke-opacity=".28" stroke-width="1.2" stroke-dasharray="3 5"/>'
+    const += (f'<circle class="cp" cx="{ax:.0f}" cy="{ay:.0f}" r="2.6" fill="{CREAM}" '
+              f'style="--dx:{bx - ax:.0f}px;--dy:{by - ay:.0f}px;animation-duration:{5 + n % 4}s;animation-delay:-{n * 1.3:.1f}s"/>')
 
 stars = "".join(
     f'<circle class="tw" style="animation-delay:{rnd.uniform(0, 5):.1f}s;animation-duration:{rnd.uniform(3, 6):.1f}s" '
@@ -74,12 +87,15 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 @keyframes fl{{50%{{transform:translateY(-6px)}}}}@keyframes d1{{to{{transform:translateX(7px)}}}}@keyframes d2{{to{{transform:translateX(-7px)}}}}
 @keyframes tw{{50%{{opacity:.25}}}}
 @keyframes sh{{0%{{opacity:0;transform:translate(var(--x),var(--y))}}2%{{opacity:1}}9%{{opacity:1}}12%,100%{{opacity:0;transform:translate(calc(var(--x) + 190px),calc(var(--y) + 76px))}}}}
+.cp{{opacity:0;animation:cpl 6s ease-in-out infinite}}
+@keyframes cpl{{0%{{opacity:0;transform:translate(0,0)}}15%,85%{{opacity:.9}}100%{{opacity:0;transform:translate(var(--dx),var(--dy))}}}}
 @keyframes bd{{to{{transform:translate({W+40}px,var(--y))}}}}
 @keyframes fp{{from{{transform:scaleY(1)}}to{{transform:scaleY(-.6)}}}}
-@media (prefers-reduced-motion:reduce){{.fl,.c1,.c2,.tw,.sh,.bd,.wing{{animation:none}}.sh{{opacity:0}}}}
+@media (prefers-reduced-motion:reduce){{.fl,.c1,.c2,.tw,.sh,.bd,.wing,.cp{{animation:none}}.sh,.cp{{opacity:0}}}}
 </style>
 <rect width="{W}" height="{H}" rx="14" fill="url(#sky)"/>
 {stars}
+{const}
 {shoot}
 {birds}
 {body}

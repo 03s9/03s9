@@ -19,6 +19,10 @@ com ênfase no front-end. Serve de base para criar skills reutilizáveis (ver se
 | Dashboard (linguagens, números, salvos) | `assets/generated/dashboard.svg` | SVG gerado por Python + GitHub Actions |
 | Seção pessoal (AniList + Last.fm) | `assets/generated/anilist.svg`, `music.svg` | SVG gerado por `scripts/gen_personal.py` (capas embutidas, capas flutuando, vinil girando) |
 | Bonsai pixel art do histórico | `assets/generated/bonsai*.{svg,png,gif}` | action de terceiros `egorthinks/git-bonsai` (fixada por SHA `665258c`), `commit: false` |
+| Cena do bonsai (balança, pétalas, lua) | `assets/generated/bonsai-scene.svg` | `scripts/gen_bonsai_scene.py` recorta o PNG do git-bonsai e anima |
+| Grafos de dados (repos×linguagens, salvos, gostos) | `assets/generated/graphs.svg` | `scripts/graphkit.py` (layout de forças) + `gen_graphs.py` |
+| Constelação da stack (linhas + pulsos) | `assets/badges-sky.svg` | `scripts/gen_sky_badges.py` |
+| Grafo interativo (arrastar, hover) | `docs/graph.js` | canvas + API do GitHub, Pages |
 | Cobra de contribuições | `assets/generated/snake.svg` | `Platane/snk` + GitHub Actions |
 | GIF ASCII | `assets/ascii-loop.gif` | GIF |
 | Rodapé xadrez | `assets/footer.svg` | SVG com `<pattern>` |
@@ -198,7 +202,7 @@ assets/
 docs/
   index.html style.css main.js hermes.png .nojekyll   # site Pages
   INCIDENTS.md PROJECT_HISTORY.md
-scripts/gen_dashboard.py gen_sky_badges.py gen_personal.py
+scripts/gen_dashboard.py gen_sky_badges.py gen_personal.py graphkit.py gen_graphs.py gen_bonsai_scene.py
 README.md
 ```
 Observação: o `docs/` é também a raiz publicada pelo Pages (`INCIDENTS.md` fica acessível como texto).
@@ -234,3 +238,7 @@ Cada skill deve incluir: gatilhos de uso, o exemplo mínimo funcional deste repo
 Revisada em 2026-11-16 na versão `665258c` (v1.0.0): única rede é `api.github.com/graphql` com o token; `execSync` só roda `git`;
 sem `eval`/download. Fixada por SHA (não `@v1`). Roda com `commit: "false"` porque o `git push` dela só faz retry, sem `pull --rebase`;
 quem publica é o nosso passo de commit. Falha dela não bloqueia o resto (`continue-on-error`). Para atualizar a versão: reler o `dist/src/action.js` e trocar o SHA.
+
+### Backup do README
+Antes dos grafos e da cena do bonsai: tag git `readme-backup-2026-11-16` e cópia local em `/Users/03s9/03s9-profile-backups/`.
+Para voltar: `git checkout readme-backup-2026-11-16 -- README.md` (ou copiar o arquivo do backup).

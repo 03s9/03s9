@@ -34,6 +34,15 @@ jobs:
         with:
           commit: "false"
           output-dir: assets/generated
+      - name: bonsai scene
+        continue-on-error: true
+        run: python3 scripts/gen_bonsai_scene.py
+      - name: graphs (repos, saved, taste)
+        continue-on-error: true
+        run: python3 scripts/gen_graphs.py "${{ github.repository_owner }}" 03s9 ayame2400 dist/graphs.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
       - uses: Platane/snk@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
