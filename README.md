@@ -15,6 +15,10 @@
 | [arxiv-research-miner](https://github.com/03s9/arxiv-research-miner) | Mineração de papers do arXiv | Python |
 | [native-data-engine-research](https://github.com/03s9/native-data-engine-research) | Pesquisa de motor de dados nativo | Rust |
 
+## Status
+
+<img src="https://raw.githubusercontent.com/03s9/03s9/output/dashboard.svg" alt="Dashboard: linguagens mais usadas, números do GitHub e repositórios salvos" width="100%">
+
 ## Atividade
 
 <img src="https://raw.githubusercontent.com/03s9/03s9/output/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
