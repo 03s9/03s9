@@ -17,6 +17,7 @@ com ênfase no front-end. Serve de base para criar skills reutilizáveis (ver se
 | Cards bento (Foco / Stack / Agora) | `assets/bento.svg` | SVG |
 | Cena "céu estrelado" com 11 badges flutuando | `assets/badges-sky.svg` | SVG + CSS animations, gerado por script |
 | Dashboard (linguagens, números, salvos) | `assets/generated/dashboard.svg` | SVG gerado por Python + GitHub Actions |
+| Seção pessoal (AniList + Last.fm) | `assets/generated/anilist.svg`, `music.svg` | SVG gerado por `scripts/gen_personal.py` (capas embutidas, capas flutuando, vinil girando) |
 | Cobra de contribuições | `assets/generated/snake.svg` | `Platane/snk` + GitHub Actions |
 | GIF ASCII | `assets/ascii-loop.gif` | GIF |
 | Rodapé xadrez | `assets/footer.svg` | SVG com `<pattern>` |
@@ -164,7 +165,7 @@ O README referencia caminhos **relativos** (`assets/generated/*.svg`). Antes dis
 | 1 | Cobra com 404 | Branch `output` deletada na limpeza de branches | Assets gerados passaram para a `main` |
 | 2 | Workflow `snake` vermelho, dashboard 404 | `snk` (Docker, root) criou `dist/` com dono root → `PermissionError` | Gerar o dashboard antes do snk |
 | 3 | Badges não apareciam | PR #5 fechado sem merge e branch apagada | Reabrir (#8) |
-| 4 | Run manual falhou: `rejected (fetch first)` | Dois runs simultâneos fizeram push na `main` | Pendente: `concurrency` + `git pull --rebase` antes do push |
+| 4 | Run manual falhou: `rejected (fetch first)` | Dois runs simultâneos fizeram push na `main` | `concurrency` + `git pull --rebase` antes do push (feat/personal-section) |
 | 5 | Quadro azul em volta da Hermes | Região padrão do filtro SVG (+10%) | `x=0 y=0 width=1 height=1` |
 | 6 | Fundo branco da Hermes | PNG opaco | Filtro de luminância → alfa |
 | 7 | Cards de stats com "?" | `github-readme-stats` público com 503 | Dashboard próprio |
@@ -196,7 +197,7 @@ assets/
 docs/
   index.html style.css main.js hermes.png .nojekyll   # site Pages
   INCIDENTS.md PROJECT_HISTORY.md
-scripts/gen_dashboard.py gen_sky_badges.py
+scripts/gen_dashboard.py gen_sky_badges.py gen_personal.py
 README.md
 ```
 Observação: o `docs/` é também a raiz publicada pelo Pages (`INCIDENTS.md` fica acessível como texto).
@@ -225,4 +226,5 @@ Cada skill deve incluir: gatilhos de uso, o exemplo mínimo funcional deste repo
 - Layout em celular.
 - Opção A completa do plano (landing em React/Vite/Tailwind): trocada por um site estático de teste.
 - Conteúdo de "foco / stack / agora" a partir do LinkedIn: leitura bloqueada (HTTP 999); textos atuais são suposições.
-- Blindagem do workflow contra corrida de push e remoção da branch `output` (sem uso) ainda pendentes.
+- Remoção da branch `output` (sem uso) ainda pendente.
+- Seção pessoal: o Last.fm só foi testado com dados de mentira (sem chave local); a primeira prova real é o run do workflow.
