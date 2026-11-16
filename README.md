@@ -4,7 +4,7 @@
 
 ## Sobre
 
-Sou o Vitor. Trabalho com engenharia de dados, backend e ferramentas de IA: pipelines de dados, extração de documentos, agentes e LLMs locais, e exploro motores de dados nativos em Rust. Fora do código: anime, mangá e música (mais abaixo).
+<img src="assets/about.svg" alt="Sou o Vitor. Trabalho com engenharia de dados, backend e ferramentas de IA: pipelines de dados, extração de documentos, agentes e LLMs locais, e exploro motores de dados nativos em Rust. Fora do código: anime, mangá e música (mais abaixo)." width="100%">
 
 <a href="https://www.linkedin.com/in/vitor-g%C3%B3ngora-29243a386"><img src="assets/btn-linkedin.svg" alt="LinkedIn de Vitor Góngora" height="52"></a>
 <a href="https://github.com/03s9?tab=repositories"><img src="assets/btn-github.svg" alt="Repositórios no GitHub" height="52"></a>
