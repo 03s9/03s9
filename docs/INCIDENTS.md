@@ -31,3 +31,24 @@ deletada fora de um push/cron; o cron diário (03:00 UTC) a recria em até 24h.
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' https://raw.githubusercontent.com/03s9/03s9/output/snake.svg
 ```
+
+## 2026-11-16 — Dashboard 404 (workflow `snake` falhou) e PR #5 fechado sem merge
+
+**Sintoma:** `output/dashboard.svg` -> 404; run `snake` de 01:13 com `failure`.
+Os badges animados não apareceram (README ainda com shields.io).
+
+**Causa raiz 1:** o passo `dashboard` rodava DEPOIS do `Platane/snk`, que roda em Docker
+como root e cria `dist/` com dono root. O script (usuário `runner`) não podia gravar:
+`PermissionError: [Errno 13] Permission denied: 'dist/dashboard.svg'`.
+Como o deploy só roda se todos os passos passam, nem snake nem dashboard foram atualizados.
+
+**Causa raiz 2:** o PR #5 (`feat/animated-badges`) foi **fechado sem merge** às 01:11
+e a branch remota apagada; o código dos badges nunca entrou na `main`.
+
+**Correção:** `mkdir -p dist` + geração do dashboard ANTES do snk (dir de dono runner;
+o container root consegue escrever nele). Badges reenviados em novo PR.
+
+**Verificar:**
+```bash
+curl -s -o /dev/null -w '%{http_code}\n' https://raw.githubusercontent.com/03s9/03s9/output/dashboard.svg
+```
