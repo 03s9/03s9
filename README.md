@@ -1,18 +1,6 @@
 <a href="https://github.com/03s9?tab=repositories"><img src="assets/header.svg" alt="03S9 — Vitor Góngora: data engineering, backend e AI tooling. Clique para explorar os repositórios." width="100%"></a>
 
-<p align="center">
-  <img src="assets/badges/python.svg" alt="Python" height="76">
-  <img src="assets/badges/rust.svg" alt="Rust" height="76">
-  <img src="assets/badges/sql.svg" alt="SQL" height="76">
-  <img src="assets/badges/java.svg" alt="Java" height="76">
-  <img src="assets/badges/typescript.svg" alt="TypeScript" height="76">
-  <img src="assets/badges/claude-code.svg" alt="Claude Code" height="76">
-  <img src="assets/badges/git-cicd.svg" alt="Git CI/CD" height="76">
-  <img src="assets/badges/polars.svg" alt="Polars" height="76">
-  <img src="assets/badges/pandas.svg" alt="Pandas" height="76">
-  <img src="assets/badges/fastapi.svg" alt="FastAPI" height="76">
-  <img src="assets/badges/spring-boot.svg" alt="Spring Boot" height="76">
-</p>
+<img src="assets/badges-sky.svg" alt="Stack: Python, Rust, SQL, Java, TypeScript, Claude Code, Git CI/CD, Polars, Pandas, FastAPI, Spring Boot" width="100%">
 
 <img src="assets/bento.svg" alt="Foco: pipelines de dados e extração de documentos, motores nativos em Rust, agentes de IA e LLMs locais. Stack: Python, SQL, Polars, DuckDB, Rust, Java, TypeScript, FastAPI, Pydantic, Docker. Agora: explorando motores de dados nativos e mineração de papers do arXiv; aberto a conversar sobre dados, backend e automação com IA." width="100%">
 
