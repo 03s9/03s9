@@ -23,6 +23,10 @@ jobs:
           python3 scripts/gen_dashboard.py "${{ github.repository_owner }}" dist/dashboard.svg
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: personal section (AniList + Last.fm)
+        run: python3 scripts/gen_personal.py 03s9 ayame2400 dist
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
       - uses: Platane/snk@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}

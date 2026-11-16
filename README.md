@@ -15,6 +15,12 @@
 
 <img src="assets/generated/dashboard.svg" alt="Dashboard: linguagens mais usadas, números do GitHub e repositórios salvos" width="100%">
 
+## Pessoal & gostos
+
+<img src="assets/generated/anilist.svg" alt="AniList: estatísticas de anime e mangá, o que estou assistindo e lendo e meus favoritos" width="100%">
+
+<img src="assets/generated/music.svg" alt="Last.fm: últimas músicas ouvidas e top artistas" width="100%">
+
 ## Atividade
 
 <img src="assets/generated/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
