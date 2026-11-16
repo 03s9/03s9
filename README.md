@@ -25,11 +25,11 @@
 
 ## Status
 
-<img src="https://raw.githubusercontent.com/03s9/03s9/output/dashboard.svg" alt="Dashboard: linguagens mais usadas, números do GitHub e repositórios salvos" width="100%">
+<img src="assets/generated/dashboard.svg" alt="Dashboard: linguagens mais usadas, números do GitHub e repositórios salvos" width="100%">
 
 ## Atividade
 
-<img src="https://raw.githubusercontent.com/03s9/03s9/output/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
+<img src="assets/generated/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
 
 <p align="center"><img src="assets/ascii-loop.gif" alt="Animação em arte ASCII" width="507"></p>
 

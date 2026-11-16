@@ -52,3 +52,17 @@ o container root consegue escrever nele). Badges reenviados em novo PR.
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' https://raw.githubusercontent.com/03s9/03s9/output/dashboard.svg
 ```
+
+## 2026-11-16 — Fim da dependência da branch `output`
+
+**Por que a `output` não podia ser apagada:** o README apontava para
+`raw.githubusercontent.com/03s9/03s9/output/*.svg`. Apagar a branch = 404 nas imagens
+(causa do primeiro incidente acima).
+
+**Mudança estrutural:** o workflow `snake.yml` agora gera os SVGs e faz commit direto em
+`assets/generated/` na `main` (só quando há diferença). O README usa caminhos relativos
+(`assets/generated/*.svg`). A branch `output` deixa de ser usada e pode ser apagada
+**depois** que o workflow rodar com sucesso na `main`.
+
+**Trade-off:** o bot cria commits `chore: update generated assets` na `main` (no máximo 1 por dia).
+**Risco:** se a `main` for protegida contra push direto, o passo de commit falha.
