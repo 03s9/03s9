@@ -21,14 +21,17 @@
 
 <img src="assets/generated/music.svg" alt="Last.fm: últimas músicas ouvidas e top artistas" width="100%">
 
+## Redes
+
+<img src="assets/generated/graphs.svg" alt="Grafos: repositórios e linguagens, repositórios salvos por linguagem e mapa de gostos de anime, mangá e música" width="100%">
+
 ## Atividade
 
 <img src="assets/generated/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
 
-<p align="center">
-  <img src="assets/generated/bonsai-growth.gif" width="384" alt="Bonsai em pixel art gerado a partir do histórico do GitHub de 03s9">
-  <br><sub>cresce com o meu histórico · <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub>
-</p>
+<img src="assets/generated/bonsai-scene.svg" alt="Bonsai em pixel art que cresce com o histórico do GitHub, balançando ao vento sob um céu estrelado" width="100%">
+
+<sub>árvore gerada por <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a> · <a href="https://03s9.github.io/03s9/">versão interativa dos grafos no site</a></sub>
 
 <p align="center"><img src="assets/ascii-loop.gif" alt="Animação em arte ASCII" width="507"></p>
 
