@@ -25,6 +25,11 @@
 
 <img src="assets/generated/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
 
+<p align="center">
+  <img src="assets/generated/bonsai-growth.gif" width="384" alt="Bonsai em pixel art gerado a partir do histórico do GitHub de 03s9">
+  <br><sub>cresce com o meu histórico · <a href="https://github.com/egorthinks/git-bonsai">git-bonsai</a></sub>
+</p>
+
 <p align="center"><img src="assets/ascii-loop.gif" alt="Animação em arte ASCII" width="507"></p>
 
 <img src="assets/footer.svg" alt="" width="100%">
