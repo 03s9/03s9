@@ -24,6 +24,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: personal section (AniList + Last.fm)
+        continue-on-error: true
         run: python3 scripts/gen_personal.py 03s9 ayame2400 dist
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
