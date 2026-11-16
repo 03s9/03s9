@@ -83,3 +83,45 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="{H}" view
 '''
 open(OUT, "w", encoding="utf-8").write(svg)
 print("ok", OUT, [k for k, _ in top], len(starred))
+
+# ---- versão estreita (600px) para celular: fontes maiores em relação à largura ----
+MW = 600
+mb1 = ""
+for i, (name, v) in enumerate(top):
+    yy = 96 + i * 44; pct = v / total * 100; bw = max(4, round(pct / 100 * 300))
+    mb1 += (f'<text x="44" y="{yy+15}" class="t">{escape(name)}</text>'
+            f'<rect x="170" y="{yy}" width="300" height="20" rx="4" fill="{BLUE}" fill-opacity=".15"/>'
+            f'<rect x="170" y="{yy}" width="{bw}" height="20" rx="4" fill="{PINK if i % 2 else BLUE}"/>'
+            f'<text x="484" y="{yy+15}" class="t">{pct:.0f}%</text>')
+h1 = 96 + max(len(top), 1) * 44 + 16
+mb2 = ""
+for i, (lab, v) in enumerate(nums):
+    cx, cy = 44 + (i % 2) * 280, 92 + (i // 2) * 92
+    mb2 += f'<text x="{cx}" y="{cy+36}" class="n">{escape(str(v))}</text><text x="{cx}" y="{cy+62}" class="t s">{lab}</text>'
+y2 = 20 + h1 + 24
+mb3 = ""
+for i, s in enumerate(starred):
+    yy = 96 + i * 34
+    mb3 += (f'<text x="44" y="{yy}" class="t">★ {escape(s["full_name"][:30])}</text>'
+            f'<text x="456" y="{yy}" class="t">{s["stargazers_count"]:,}★</text>')
+h2 = 270
+y3 = y2 + h2 + 24
+h3 = 96 + max(len(starred), 1) * 34 + 8
+MH = y3 + h3 + 24
+
+
+def mcard(y, h, title, body):
+    return card(20, y, 560, h, title, f'<g transform="translate(0 {y - 20})">{body}</g>')
+
+
+msvg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{MW}" height="{MH}" viewBox="0 0 {MW} {MH}" role="img" aria-label="Dashboard: linguagens mais usadas, números do GitHub e repositórios salvos">
+<title>Dashboard de status (versão estreita)</title>
+<style>.h{{font:900 24px 'Courier New',ui-monospace,monospace;fill:{BLUE};letter-spacing:2px}}.t{{font:700 17px 'Courier New',ui-monospace,monospace;fill:{BLUE}}}.s{{font-size:14px}}.n{{font:900 40px 'Courier New',ui-monospace,monospace;fill:{BLUE}}}</style>
+<rect width="{MW}" height="{MH}" rx="12" fill="{PINK}"/>
+{mcard(20, h1, "LINGUAGENS", mb1)}
+{mcard(y2, h2, "NÚMEROS", mb2)}
+{mcard(y3, h3, "SALVOS", mb3)}
+</svg>
+'''
+open(OUT.replace(".svg", "-mobile.svg"), "w", encoding="utf-8").write(msvg)
+print("ok mobile", OUT.replace(".svg", "-mobile.svg"))

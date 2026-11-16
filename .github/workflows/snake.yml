@@ -43,6 +43,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+      - name: activity + heatmap
+        continue-on-error: true
+        run: |
+          python3 scripts/gen_activity.py "${{ github.repository_owner }}" dist/activity.svg
+          python3 scripts/gen_heatmap.py "${{ github.repository_owner }}" dist/heatmap.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: Platane/snk@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
