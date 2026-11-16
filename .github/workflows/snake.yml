@@ -14,16 +14,18 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: dashboard
+        run: |
+          mkdir -p dist
+          python3 scripts/gen_dashboard.py "${{ github.repository_owner }}" dist/dashboard.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: Platane/snk@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
-      - name: dashboard
-        run: python3 scripts/gen_dashboard.py "${{ github.repository_owner }}" dist/dashboard.svg
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: crazy-max/ghaction-github-pages@v5.0.0
         with:
           target_branch: output
