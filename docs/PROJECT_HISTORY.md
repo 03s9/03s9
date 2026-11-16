@@ -23,6 +23,11 @@ com ênfase no front-end. Serve de base para criar skills reutilizáveis (ver se
 | Grafos de dados (repos×linguagens, salvos, gostos) | `assets/generated/graphs.svg` | `scripts/graphkit.py` (layout de forças) + `gen_graphs.py` |
 | Constelação da stack (linhas + pulsos) | `assets/badges-sky.svg` | `scripts/gen_sky_badges.py` |
 | Grafo interativo (arrastar, hover) | `docs/graph.js` | canvas + API do GitHub, Pages |
+| Atividade recente (PRs/commits públicos) | `assets/generated/activity.svg` | `scripts/gen_activity.py` (events API; título do PR buscado via API) |
+| Heatmap de contribuições (paleta OUTLOUD) | `assets/generated/heatmap.svg` | `scripts/gen_heatmap.py` (GraphQL) |
+| Versões mobile (<=600px) | `assets/bento-mobile.svg`, `assets/generated/dashboard-mobile.svg` | `<picture><source media="(max-width: 600px)">` — NÃO verificado no GitHub |
+| Terminal interativo (site) | `docs/terminal.js` | comandos help/whoami/ls/cat gostos/now/contact |
+| Seção Sobre + botões | `assets/btn-*.svg` | SVG + `<a>` |
 | Cobra de contribuições | `assets/generated/snake.svg` | `Platane/snk` + GitHub Actions |
 | GIF ASCII | `assets/ascii-loop.gif` | GIF |
 | Rodapé xadrez | `assets/footer.svg` | SVG com `<pattern>` |
@@ -202,7 +207,7 @@ assets/
 docs/
   index.html style.css main.js hermes.png .nojekyll   # site Pages
   INCIDENTS.md PROJECT_HISTORY.md
-scripts/gen_dashboard.py gen_sky_badges.py gen_personal.py graphkit.py gen_graphs.py gen_bonsai_scene.py
+scripts/gen_dashboard.py gen_sky_badges.py gen_personal.py graphkit.py gen_graphs.py gen_bonsai_scene.py gen_activity.py gen_heatmap.py gen_bento_mobile.py
 README.md
 ```
 Observação: o `docs/` é também a raiz publicada pelo Pages (`INCIDENTS.md` fica acessível como texto).
@@ -242,3 +247,8 @@ quem publica é o nosso passo de commit. Falha dela não bloqueia o resto (`cont
 ### Backup do README
 Antes dos grafos e da cena do bonsai: tag git `readme-backup-2026-11-16` e cópia local em `/Users/03s9/03s9-profile-backups/`.
 Para voltar: `git checkout readme-backup-2026-11-16 -- README.md` (ou copiar o arquivo do backup).
+
+### Decisões da v2 (2026-11-16)
+Público: misto (recrutadores + pessoal). A seção "Redes" saiu do README e mora só no site Pages. Mantidos todos os GIFs e imagens.
+Não feito: "Experiência" e currículo (faltam texto do LinkedIn e PDF; não inventar); "projetos com demo" (não há demos públicas);
+corte de peso (você pediu para manter tudo; README carrega ~1,7 MB).

@@ -35,11 +35,19 @@
   <h2>Grafo interativo</h2>
   <p id="graph-msg" role="status">Carregando…</p>
   <div class="graphbox"><canvas id="graph" aria-label="Grafo interativo de repositórios e linguagens" role="img"></canvas><div id="graph-tip" role="tooltip" hidden></div></div>
+  <h2>Terminal</h2>
+  <div class="term">
+    <div id="term-out" role="log" aria-live="polite" aria-label="Saída do terminal"></div>
+    <form id="term-form"><label for="term-input">$</label><input id="term-input" autocomplete="off" spellcheck="false" aria-label="Digite um comando" placeholder="help"></form>
+  </div>
+  <h2>Redes</h2>
+  <img class="dash" src="https://raw.githubusercontent.com/03s9/03s9/main/assets/generated/graphs.svg" alt="Grafos: repositórios e linguagens, repositórios salvos por linguagem e mapa de gostos de anime, mangá e música">
   <h2>Dashboard</h2>
   <img class="dash" src="https://raw.githubusercontent.com/03s9/03s9/main/assets/generated/dashboard.svg" alt="Dashboard: linguagens mais usadas, números do GitHub e repositórios salvos">
 </main>
 <footer class="foot">Teste de GitHub Pages · <a href="https://github.com/03s9/03s9">código no GitHub</a></footer>
 <script src="main.js"></script>
 <script src="graph.js"></script>
+<script src="terminal.js"></script>
 </body>
 </html>
