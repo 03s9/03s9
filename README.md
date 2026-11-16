@@ -19,23 +19,6 @@
 
 <img src="https://raw.githubusercontent.com/03s9/03s9/output/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
 
-<div align="center"><pre role="img" aria-label="Borboleta em arte ASCII">
-                 \       /                 
-  .-"""""-._      \     /      _.-"""""-.  
- /   .-.    `-.    \   /    .-'    .-.   \ 
-|   ( O )      `.   (_)   .'      ( O )   |
-|    `-'    o    \  | |  /    o    `-'    |
- \       .-.      \ | | /      .-.       / 
-  `.     `-'       \| |/       `-'     .'  
-    `-._            | |            _.-'    
-        `""--..___  | |  ___..--""'        
-       .-'   .-.  `.| |.'  .-.   `-.       
-      /     ( o )   | |   ( o )     \      
-     |       `-'   /| |\   `-'       |     
-     |   o        / \_/ \        o   |     
-      \          /       \          /      
-       `.      .'         `.      .'       
-         `-..-'             `-..-'         
-</pre></div>
+<p align="center"><img src="assets/ascii-loop.gif" alt="Animação em arte ASCII" width="507"></p>
 
 <img src="assets/footer.svg" alt="" width="100%">
