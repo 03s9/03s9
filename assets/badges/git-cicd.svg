@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="161" height="76" viewBox="0 0 161 76" role="img" aria-label="Git CI/CD">
+<title>Git CI/CD</title>
+<style>
+.float{animation:fl 4.6s ease-in-out -4.199999999999999s infinite}
+.c1{animation:d1 9s ease-in-out -4.199999999999999s infinite alternate}
+.c2{animation:d2 12s ease-in-out -4.199999999999999s infinite alternate}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes d1{to{transform:translateX(7px)}}
+@keyframes d2{to{transform:translateX(-7px)}}
+@media (prefers-reduced-motion:reduce){.float,.c1,.c2{animation:none}}
+.t{font-family:'Courier New',ui-monospace,monospace;font-weight:900;font-size:14px;fill:#0032A8}
+</style>
+<g class="c1" fill="#FEF1CF" stroke="#0032A8" stroke-width="1.5"><path d="M6 24a5 5 0 0 1 4-8 6 6 0 0 1 11-1 5 5 0 0 1 3 9z"/></g>
+<g class="c2" fill="#FEF1CF" stroke="#0032A8" stroke-width="1.5"><path d="M127 68a4 4 0 0 1 3-7 5 5 0 0 1 9-1 4 4 0 0 1 3 8z"/></g>
+<g class="float">
+<rect x="11" y="19" width="145" height="38" rx="19" fill="#0032A8"/>
+<rect x="8" y="16" width="145" height="38" rx="19" fill="#FEF1CF" stroke="#0032A8" stroke-width="2.5"/>
+<g transform="translate(24 24) scale(1.0833)" fill="#0032A8"><path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/></g>
+<text class="t" x="56" y="40">Git CI/CD</text>
+</g>
+</svg>

@@ -1,10 +1,18 @@
 <a href="https://github.com/03s9?tab=repositories"><img src="assets/header.svg" alt="03S9 — Vitor Góngora: data engineering, backend e AI tooling. Clique para explorar os repositórios." width="100%"></a>
 
-![Python](https://img.shields.io/badge/Python-0032A8?style=for-the-badge&logo=python&logoColor=FEF1CF&labelColor=0032A8)
-![Rust](https://img.shields.io/badge/Rust-0032A8?style=for-the-badge&logo=rust&logoColor=FEF1CF&labelColor=0032A8)
-![SQL](https://img.shields.io/badge/SQL-0032A8?style=for-the-badge&logo=postgresql&logoColor=FEF1CF&labelColor=0032A8)
-![Java](https://img.shields.io/badge/Java-0032A8?style=for-the-badge&logo=openjdk&logoColor=FEF1CF&labelColor=0032A8)
-![TypeScript](https://img.shields.io/badge/TypeScript-0032A8?style=for-the-badge&logo=typescript&logoColor=FEF1CF&labelColor=0032A8)
+<p align="center">
+  <img src="assets/badges/python.svg" alt="Python" height="76">
+  <img src="assets/badges/rust.svg" alt="Rust" height="76">
+  <img src="assets/badges/sql.svg" alt="SQL" height="76">
+  <img src="assets/badges/java.svg" alt="Java" height="76">
+  <img src="assets/badges/typescript.svg" alt="TypeScript" height="76">
+  <img src="assets/badges/claude-code.svg" alt="Claude Code" height="76">
+  <img src="assets/badges/git-cicd.svg" alt="Git CI/CD" height="76">
+  <img src="assets/badges/polars.svg" alt="Polars" height="76">
+  <img src="assets/badges/pandas.svg" alt="Pandas" height="76">
+  <img src="assets/badges/fastapi.svg" alt="FastAPI" height="76">
+  <img src="assets/badges/spring-boot.svg" alt="Spring Boot" height="76">
+</p>
 
 <img src="assets/bento.svg" alt="Foco: pipelines de dados e extração de documentos, motores nativos em Rust, agentes de IA e LLMs locais. Stack: Python, SQL, Polars, DuckDB, Rust, Java, TypeScript, FastAPI, Pydantic, Docker. Agora: explorando motores de dados nativos e mineração de papers do arXiv; aberto a conversar sobre dados, backend e automação com IA." width="100%">
 
