@@ -38,6 +38,10 @@
 
 <img src="assets/generated/music.svg" alt="Last.fm: últimas músicas ouvidas e top artistas" width="100%">
 
+## LeetCode
+
+<img src="assets/generated/leetcode.svg" alt="LeetCode: problemas resolvidos por dificuldade e ranking" width="100%">
+
 ## Atividade
 
 <img src="assets/generated/snake.svg" alt="Cobra percorrendo e comendo o gráfico de contribuições do GitHub de 03s9" width="100%">
